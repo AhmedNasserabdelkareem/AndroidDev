@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:id="@+id/min_term"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@drawable/shapes"
+            android:hint="Enter Minterms Variables"
+            android:layout_marginBottom="20dp"
+            android:layout_centerInParent="true"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/dont_c"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shapes"
+            android:hint="If there, Don’t care Variables"
+            android:layout_marginBottom="20dp"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:text="ADD"
+            android:onClick="addminterms"
+            android:textSize="20dp"
+            android:background="#fa0404"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
